@@ -20,3 +20,64 @@ Optional target:
 Risk_Level ∈ {Low, Medium, High}
 → Derived from Overall_Risk_Score thresholds:
 Low < 0.35 | 0.35–0.65 = Medium | > 0.65 = High
+
+
+🔍 Analysis Pipeline
+
+Categorical Features: 
+
+Analyzed variables like Cancer_Type, Risk_Level, Gender, H_Pylori_Infection, and BRCA_Mutation using bar charts.
+
+Most patients fall into Medium or High risk groups.
+
+H_Pylori_Infection and BRCA_Mutation strongly link to specific cancer types.
+
+Chi-Square Test: 
+
+Confirmed strong associations (p < 0.05) between Cancer_Type,
+
+H_Pylori_Infection, and BRCA_Mutation with overall risk level.
+
+Numerical Features: 
+
+Variables: Age, BMI, Smoking, Alcohol_Use, Air_Pollution, Physical_Activity, etc.
+
+High-risk patients → higher BMI, Smoking, and Air Pollution.
+
+Low-risk patients → better Physical Activity and Diet Quality.
+
+Correlation & Feature Importance:
+
+ Top correlated features with overall risk:
+
+ 1️⃣ Smoking 2️⃣ Air Pollution 3️⃣ BMI 4️⃣ Age
+
+Data Preparation:
+
+ ✅ Dropped non-predictive IDs
+
+ ✅ One-hot encoded categorical variables
+
+ ✅ Train-test split (80/20)
+
+🤖 Machine Learning Models
+
+Random Forest Classifier:
+
+Accuracy: 96%
+
+Top Predictors: Overall_Risk_Score, Smoking, Air_Pollution, BMI, Age
+
+Logistic Regression:
+
+Accuracy: 85%
+
+✅ Random Forest outperformed across all metrics (F1 ≈ 0.95).
+
+📊 Key Insights
+
+Environmental and lifestyle factors dominate cancer risk.
+
+Smoking, Air Pollution, and Obesity are top contributors.
+
+Exercise and Healthy Diet act as strong protective factors.
