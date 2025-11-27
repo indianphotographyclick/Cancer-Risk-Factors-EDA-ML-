@@ -74,7 +74,7 @@ Low < 0.35 | 0.35–0.65 = Medium | > 0.65 = High*
 
 *✅ Random Forest outperformed across all metrics (F1 ≈ 0.95).*
 
-*📊 Key Insights*
+**📊 Key Insights**
 
 *Environmental and lifestyle factors dominate cancer risk.*
 
