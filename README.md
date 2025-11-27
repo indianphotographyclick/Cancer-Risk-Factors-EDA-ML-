@@ -1,4 +1,4 @@
-# Cancer-Risk-Factors-EDA-ML
+# 𝐂𝐚𝐧𝐜𝐞𝐫-𝐑𝐢𝐬𝐤-𝐅𝐚𝐜𝐭𝐨𝐫𝐬-𝐄𝐃𝐀-𝐌𝐋
 A compact and standardized dataset examining how lifestyle, environmental, and genetic factors influence five common cancer types.
 Contains 2,000 individual records × 21 features, fully numerical and ready for EDA, dashboarding, and multiclass ML tasks.
 
