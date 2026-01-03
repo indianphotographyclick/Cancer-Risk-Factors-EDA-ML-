@@ -3,7 +3,7 @@
 *Contains 2,000 individual records × 21 features, fully numerical and ready for EDA, dashboarding, and multiclass ML tasks.*
 
 ---
-**Why This Dataset?**
+# Why This Dataset?
 
 *Explore risk distributions and correlations across lifestyle factors
 Build visual dashboards for population-level cancer risk
@@ -11,7 +11,7 @@ Train multiclass models on Cancer_Type with balanced evaluation (macro-F1, accur
 Practice class imbalance handling and interpretability*
 
 ---
-**Targets**
+# Targets
 
 **Primary target:**
 *Cancer_Type ∈ {Lung, Breast, Colon, Prostate, Skin}
@@ -77,7 +77,7 @@ Low < 0.35 | 0.35–0.65 = Medium | > 0.65 = High*
 *✅ Random Forest outperformed across all metrics (F1 ≈ 0.95).*
 
 ---
-**📊 Key Insights**
+# 📊 Key Insights
 
 *Environmental and lifestyle factors dominate cancer risk.*
 
