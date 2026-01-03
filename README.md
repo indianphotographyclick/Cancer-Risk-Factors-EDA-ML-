@@ -24,7 +24,7 @@ Practice class imbalance handling and interpretability*
 Low < 0.35 | 0.35–0.65 = Medium | > 0.65 = High*
 
 ---
-**🔍 Analysis Pipeline**
+# 🔍 Analysis Pipeline
 
 **Categorical Features:** 
 
